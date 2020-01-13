@@ -10,10 +10,11 @@
         android:layout_marginTop="10dp"
         />
     <EditText
-        android:id="@+id/numone"
+        android:id="@+id/originalpc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:inputType="number"
         />
     <TextView
         android:layout_width="match_parent"
@@ -21,10 +22,11 @@
         android:text="percent off(%)"
         />
     <EditText
-        android:id="@+id/numtwo"
+        android:id="@+id/percent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:inputType="number"
         />
 
     <RelativeLayout
@@ -56,5 +58,6 @@
         android:layout_height="wrap_content"
         android:background="#A7F685"
         android:textSize="30dp"
+        android:gravity="right"
         />
 </LinearLayout>
